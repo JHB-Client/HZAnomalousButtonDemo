@@ -16,6 +16,7 @@
 		0324FC0E20E5BF8F0053ABED /* HZAnomalousButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0324FC0D20E5BF8F0053ABED /* HZAnomalousButtonDemoTests.m */; };
 		0324FC1920E5BF8F0053ABED /* HZAnomalousButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0324FC1820E5BF8F0053ABED /* HZAnomalousButtonDemoUITests.m */; };
 		0324FC2820E5BFBD0053ABED /* HZAnomalousButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0324FC2720E5BFBD0053ABED /* HZAnomalousButton.m */; };
+		0324FC2A20E5C4330053ABED /* model.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 0324FC2920E5C4330053ABED /* model.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		0324FC1A20E5BF8F0053ABED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0324FC2620E5BFBD0053ABED /* HZAnomalousButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZAnomalousButton.h; sourceTree = "<group>"; };
 		0324FC2720E5BFBD0053ABED /* HZAnomalousButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZAnomalousButton.m; sourceTree = "<group>"; };
+		0324FC2920E5C4330053ABED /* model.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = model.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				0324FBF820E5BF8D0053ABED /* ViewController.m */,
 				0324FC2620E5BFBD0053ABED /* HZAnomalousButton.h */,
 				0324FC2720E5BFBD0053ABED /* HZAnomalousButton.m */,
+				0324FC2920E5C4330053ABED /* model.PNG */,
 				0324FBFA20E5BF8D0053ABED /* Main.storyboard */,
 				0324FBFD20E5BF8F0053ABED /* Assets.xcassets */,
 				0324FBFF20E5BF8F0053ABED /* LaunchScreen.storyboard */,
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0324FC0120E5BF8F0053ABED /* LaunchScreen.storyboard in Resources */,
+				0324FC2A20E5C4330053ABED /* model.PNG in Resources */,
 				0324FBFE20E5BF8F0053ABED /* Assets.xcassets in Resources */,
 				0324FBFC20E5BF8D0053ABED /* Main.storyboard in Resources */,
 			);
