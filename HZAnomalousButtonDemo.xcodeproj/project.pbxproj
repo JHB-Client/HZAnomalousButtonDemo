@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0324FBF620E5BF8D0053ABED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0324FBF520E5BF8D0053ABED /* AppDelegate.m */; };
+		0324FBF920E5BF8D0053ABED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0324FBF820E5BF8D0053ABED /* ViewController.m */; };
+		0324FBFC20E5BF8D0053ABED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0324FBFA20E5BF8D0053ABED /* Main.storyboard */; };
+		0324FBFE20E5BF8F0053ABED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0324FBFD20E5BF8F0053ABED /* Assets.xcassets */; };
+		0324FC0120E5BF8F0053ABED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0324FBFF20E5BF8F0053ABED /* LaunchScreen.storyboard */; };
+		0324FC0420E5BF8F0053ABED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0324FC0320E5BF8F0053ABED /* main.m */; };
+		0324FC0E20E5BF8F0053ABED /* HZAnomalousButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0324FC0D20E5BF8F0053ABED /* HZAnomalousButtonDemoTests.m */; };
+		0324FC1920E5BF8F0053ABED /* HZAnomalousButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0324FC1820E5BF8F0053ABED /* HZAnomalousButtonDemoUITests.m */; };
+		0324FC2820E5BFBD0053ABED /* HZAnomalousButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0324FC2720E5BFBD0053ABED /* HZAnomalousButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0324FC0A20E5BF8F0053ABED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0324FBE920E5BF8D0053ABED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0324FBF020E5BF8D0053ABED;
+			remoteInfo = HZAnomalousButtonDemo;
+		};
+		0324FC1520E5BF8F0053ABED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0324FBE920E5BF8D0053ABED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0324FBF020E5BF8D0053ABED;
+			remoteInfo = HZAnomalousButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0324FBF120E5BF8D0053ABED /* HZAnomalousButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZAnomalousButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0324FBF420E5BF8D0053ABED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0324FBF520E5BF8D0053ABED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0324FBF720E5BF8D0053ABED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0324FBF820E5BF8D0053ABED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0324FBFB20E5BF8D0053ABED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0324FBFD20E5BF8F0053ABED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0324FC0020E5BF8F0053ABED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0324FC0220E5BF8F0053ABED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0324FC0320E5BF8F0053ABED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0324FC0920E5BF8F0053ABED /* HZAnomalousButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZAnomalousButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0324FC0D20E5BF8F0053ABED /* HZAnomalousButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZAnomalousButtonDemoTests.m; sourceTree = "<group>"; };
+		0324FC0F20E5BF8F0053ABED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0324FC1420E5BF8F0053ABED /* HZAnomalousButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZAnomalousButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0324FC1820E5BF8F0053ABED /* HZAnomalousButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZAnomalousButtonDemoUITests.m; sourceTree = "<group>"; };
+		0324FC1A20E5BF8F0053ABED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0324FC2620E5BFBD0053ABED /* HZAnomalousButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZAnomalousButton.h; sourceTree = "<group>"; };
+		0324FC2720E5BFBD0053ABED /* HZAnomalousButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZAnomalousButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0324FBEE20E5BF8D0053ABED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0324FC0620E5BF8F0053ABED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0324FC1120E5BF8F0053ABED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0324FBE820E5BF8D0053ABED = {
+			isa = PBXGroup;
+			children = (
+				0324FBF320E5BF8D0053ABED /* HZAnomalousButtonDemo */,
+				0324FC0C20E5BF8F0053ABED /* HZAnomalousButtonDemoTests */,
+				0324FC1720E5BF8F0053ABED /* HZAnomalousButtonDemoUITests */,
+				0324FBF220E5BF8D0053ABED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0324FBF220E5BF8D0053ABED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0324FBF120E5BF8D0053ABED /* HZAnomalousButtonDemo.app */,
+				0324FC0920E5BF8F0053ABED /* HZAnomalousButtonDemoTests.xctest */,
+				0324FC1420E5BF8F0053ABED /* HZAnomalousButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0324FBF320E5BF8D0053ABED /* HZAnomalousButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0324FBF420E5BF8D0053ABED /* AppDelegate.h */,
+				0324FBF520E5BF8D0053ABED /* AppDelegate.m */,
+				0324FBF720E5BF8D0053ABED /* ViewController.h */,
+				0324FBF820E5BF8D0053ABED /* ViewController.m */,
+				0324FC2620E5BFBD0053ABED /* HZAnomalousButton.h */,
+				0324FC2720E5BFBD0053ABED /* HZAnomalousButton.m */,
+				0324FBFA20E5BF8D0053ABED /* Main.storyboard */,
+				0324FBFD20E5BF8F0053ABED /* Assets.xcassets */,
+				0324FBFF20E5BF8F0053ABED /* LaunchScreen.storyboard */,
+				0324FC0220E5BF8F0053ABED /* Info.plist */,
+				0324FC0320E5BF8F0053ABED /* main.m */,
+			);
+			path = HZAnomalousButtonDemo;
+			sourceTree = "<group>";
+		};
+		0324FC0C20E5BF8F0053ABED /* HZAnomalousButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0324FC0D20E5BF8F0053ABED /* HZAnomalousButtonDemoTests.m */,
+				0324FC0F20E5BF8F0053ABED /* Info.plist */,
+			);
+			path = HZAnomalousButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		0324FC1720E5BF8F0053ABED /* HZAnomalousButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0324FC1820E5BF8F0053ABED /* HZAnomalousButtonDemoUITests.m */,
+				0324FC1A20E5BF8F0053ABED /* Info.plist */,
+			);
+			path = HZAnomalousButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0324FBF020E5BF8D0053ABED /* HZAnomalousButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0324FC1D20E5BF8F0053ABED /* Build configuration list for PBXNativeTarget "HZAnomalousButtonDemo" */;
+			buildPhases = (
+				0324FBED20E5BF8D0053ABED /* Sources */,
+				0324FBEE20E5BF8D0053ABED /* Frameworks */,
+				0324FBEF20E5BF8D0053ABED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZAnomalousButtonDemo;
+			productName = HZAnomalousButtonDemo;
+			productReference = 0324FBF120E5BF8D0053ABED /* HZAnomalousButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0324FC0820E5BF8F0053ABED /* HZAnomalousButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0324FC2020E5BF8F0053ABED /* Build configuration list for PBXNativeTarget "HZAnomalousButtonDemoTests" */;
+			buildPhases = (
+				0324FC0520E5BF8F0053ABED /* Sources */,
+				0324FC0620E5BF8F0053ABED /* Frameworks */,
+				0324FC0720E5BF8F0053ABED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0324FC0B20E5BF8F0053ABED /* PBXTargetDependency */,
+			);
+			name = HZAnomalousButtonDemoTests;
+			productName = HZAnomalousButtonDemoTests;
+			productReference = 0324FC0920E5BF8F0053ABED /* HZAnomalousButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0324FC1320E5BF8F0053ABED /* HZAnomalousButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0324FC2320E5BF8F0053ABED /* Build configuration list for PBXNativeTarget "HZAnomalousButtonDemoUITests" */;
+			buildPhases = (
+				0324FC1020E5BF8F0053ABED /* Sources */,
+				0324FC1120E5BF8F0053ABED /* Frameworks */,
+				0324FC1220E5BF8F0053ABED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0324FC1620E5BF8F0053ABED /* PBXTargetDependency */,
+			);
+			name = HZAnomalousButtonDemoUITests;
+			productName = HZAnomalousButtonDemoUITests;
+			productReference = 0324FC1420E5BF8F0053ABED /* HZAnomalousButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0324FBE920E5BF8D0053ABED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = huazhuo;
+				TargetAttributes = {
+					0324FBF020E5BF8D0053ABED = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					0324FC0820E5BF8F0053ABED = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0324FBF020E5BF8D0053ABED;
+					};
+					0324FC1320E5BF8F0053ABED = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0324FBF020E5BF8D0053ABED;
+					};
+				};
+			};
+			buildConfigurationList = 0324FBEC20E5BF8D0053ABED /* Build configuration list for PBXProject "HZAnomalousButtonDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0324FBE820E5BF8D0053ABED;
+			productRefGroup = 0324FBF220E5BF8D0053ABED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0324FBF020E5BF8D0053ABED /* HZAnomalousButtonDemo */,
+				0324FC0820E5BF8F0053ABED /* HZAnomalousButtonDemoTests */,
+				0324FC1320E5BF8F0053ABED /* HZAnomalousButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0324FBEF20E5BF8D0053ABED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0324FC0120E5BF8F0053ABED /* LaunchScreen.storyboard in Resources */,
+				0324FBFE20E5BF8F0053ABED /* Assets.xcassets in Resources */,
+				0324FBFC20E5BF8D0053ABED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0324FC0720E5BF8F0053ABED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0324FC1220E5BF8F0053ABED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0324FBED20E5BF8D0053ABED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0324FBF920E5BF8D0053ABED /* ViewController.m in Sources */,
+				0324FC0420E5BF8F0053ABED /* main.m in Sources */,
+				0324FBF620E5BF8D0053ABED /* AppDelegate.m in Sources */,
+				0324FC2820E5BFBD0053ABED /* HZAnomalousButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0324FC0520E5BF8F0053ABED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0324FC0E20E5BF8F0053ABED /* HZAnomalousButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0324FC1020E5BF8F0053ABED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0324FC1920E5BF8F0053ABED /* HZAnomalousButtonDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0324FC0B20E5BF8F0053ABED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0324FBF020E5BF8D0053ABED /* HZAnomalousButtonDemo */;
+			targetProxy = 0324FC0A20E5BF8F0053ABED /* PBXContainerItemProxy */;
+		};
+		0324FC1620E5BF8F0053ABED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0324FBF020E5BF8D0053ABED /* HZAnomalousButtonDemo */;
+			targetProxy = 0324FC1520E5BF8F0053ABED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0324FBFA20E5BF8D0053ABED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0324FBFB20E5BF8D0053ABED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0324FBFF20E5BF8F0053ABED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0324FC0020E5BF8F0053ABED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0324FC1B20E5BF8F0053ABED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0324FC1C20E5BF8F0053ABED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0324FC1E20E5BF8F0053ABED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36ZY42JY9;
+				INFOPLIST_FILE = HZAnomalousButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowjoy.HZAnomalousButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0324FC1F20E5BF8F0053ABED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36ZY42JY9;
+				INFOPLIST_FILE = HZAnomalousButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowjoy.HZAnomalousButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0324FC2120E5BF8F0053ABED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36ZY42JY9;
+				INFOPLIST_FILE = HZAnomalousButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowjoy.HZAnomalousButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HZAnomalousButtonDemo.app/HZAnomalousButtonDemo";
+			};
+			name = Debug;
+		};
+		0324FC2220E5BF8F0053ABED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36ZY42JY9;
+				INFOPLIST_FILE = HZAnomalousButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowjoy.HZAnomalousButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HZAnomalousButtonDemo.app/HZAnomalousButtonDemo";
+			};
+			name = Release;
+		};
+		0324FC2420E5BF8F0053ABED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36ZY42JY9;
+				INFOPLIST_FILE = HZAnomalousButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowjoy.HZAnomalousButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HZAnomalousButtonDemo;
+			};
+			name = Debug;
+		};
+		0324FC2520E5BF8F0053ABED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36ZY42JY9;
+				INFOPLIST_FILE = HZAnomalousButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowjoy.HZAnomalousButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HZAnomalousButtonDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0324FBEC20E5BF8D0053ABED /* Build configuration list for PBXProject "HZAnomalousButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0324FC1B20E5BF8F0053ABED /* Debug */,
+				0324FC1C20E5BF8F0053ABED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0324FC1D20E5BF8F0053ABED /* Build configuration list for PBXNativeTarget "HZAnomalousButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0324FC1E20E5BF8F0053ABED /* Debug */,
+				0324FC1F20E5BF8F0053ABED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0324FC2020E5BF8F0053ABED /* Build configuration list for PBXNativeTarget "HZAnomalousButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0324FC2120E5BF8F0053ABED /* Debug */,
+				0324FC2220E5BF8F0053ABED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0324FC2320E5BF8F0053ABED /* Build configuration list for PBXNativeTarget "HZAnomalousButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0324FC2420E5BF8F0053ABED /* Debug */,
+				0324FC2520E5BF8F0053ABED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0324FBE920E5BF8D0053ABED /* Project object */;
+}
